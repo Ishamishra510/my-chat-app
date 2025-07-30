@@ -1,42 +1,14 @@
-# ✨ Full Stack Realtime Chat App ✨
+# MyChat - Real-Time Chat Application
+A responsive chat app built with the MERN stack. Supports user authentication, 
+real-time messaging, image uploads, and profile customization.
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+## Features
+- Secure authentication with JWT
+- Real-time chat using Socket.IO
+- Cloudinary integration for image uploads
+- 32 customizable themes with DaisyUI
+- Fully responsive on mobile and desktop
 
-[Video Tutorial on Youtube](https://youtu.be/ntKkVrQqBYY)
-
-Highlights:
-
-- 🌟 Tech stack: MERN + Socket.io + TailwindCSS + Daisy UI
-- 🎃 Authentication && Authorization with JWT
-- 👾 Real-time messaging with Socket.io
-- 🚀 Online user status
-- 👌 Global state management with Zustand
-- 🐞 Error handling both on the server and on the client
-- ⭐ At the end Deployment like a pro for FREE!
-- ⏳ And much more!
-
-### Setup .env file
-
-```js
-MONGODB_URI=...
-PORT=5001
-JWT_SECRET=...
-
-CLOUDINARY_CLOUD_NAME=...
-CLOUDINARY_API_KEY=...
-CLOUDINARY_API_SECRET=...
-
-NODE_ENV=development
-```
-
-### Build the app
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm start
-```
+## Tech Stack
+**Frontend:** React, Tailwind CSS, DaisyUI, Zustand  
+**Backend:** Node.js, Express.js, MongoDB, JWT, Socket.IO  
